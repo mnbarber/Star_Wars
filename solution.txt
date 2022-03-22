@@ -1,0 +1,250 @@
+act 1
+     1  echo $SHELL
+    2  $SHELL --version
+    3  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    4  sudo add-apt-repository ppa:git-core/ppa
+    5  sudo apt-get update
+    6  sudo apt-get install git
+    7  git config --global user.name "mnbarber"
+    8  git config --global user.email "mnbarber1993@gmail.com"
+    9  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   10  git config --global init.defaultBranch main
+   11  git config --global core.editor "code --wait"
+   12  git config --global pull.rebase false
+   13  touch ~/.gitignore_global
+   14  git config --global core.excludesfile ~/.gitignore_global
+   15  code ~/.gitignore_global
+   16  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+   17  sudo apt-add-repository https://cli.github.com/packages
+   18  sudo apt update
+   19  sudo apt install gh
+   20  gh auth login
+   21  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+   22  sudo apt-add-repository https://cli.github.com/packages
+   23  sudo apt update
+   24  sudo apt install gh
+   25  gh auth login
+   26  "commandline" : "wsl.exe ~"
+   27  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   28  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   29  nvm install node
+   30  nvm --version
+   31  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   32  nvm --version
+   33  nvm install node
+   34  npm i -g nodemon
+   35  pwd
+   36  sudo apt-get install tree
+   37  apt-get update
+   38  --fix-missing
+   39  sudo apt-get install tree
+   40  tree
+   41  mkdir ~/drawers
+   42  tree
+   43  mkdir ~/sei_321
+   44  tree
+   45  cd drawers
+   46  ~
+   47  cd sei_321
+   48  mkdir socks
+   49  cd socks
+   50  touch dress.socks
+   51  tree
+   52  ~
+   53  cd drawers
+   54  mkdir socks && cd socks
+   55  touch dress.socks
+   56  ~
+   57  cd drawers
+   58  mkdir pjs
+   59  mkdir more-socks
+   60  cd pjs
+   61  touch warm.pjs
+   62  touch favorite.socks
+   63  ~
+   64  tree
+   65  mv ~/drawers/pjs/favorite.socks ~/drawers/socks/
+   66  tree
+   67  cd drawers
+   68  cd pjs
+   69  mkdir shorts
+   70  tree
+   71  ~
+   72  tree
+   73  cd drawers
+   74  mv pjs/shorts drawers/
+   75  tree
+   76  ~
+   77  tree
+   78  cd drawers
+   79  cd pjs
+   80  tree
+   81  mkdir shorts
+   82  tree
+   83  ~
+   84  mv ~/drawers/pjs/shorts ~/drawers/shorts
+   85  tree
+   86  cd shorts
+   87  cd drawers
+   88  cd shorts
+   89  touch plaid.pjs
+   90  ~
+   91  tree
+   92  rm -rf ~/drawers/drawers
+   93  tree
+   94  rm -rf ~/sei_321/socks
+   95  tree
+   96  cd drawers
+   97  mv pjs/warm.pjs pjs/winter.pjs
+   98  tree
+   99  mv shorts/plaid.pjs pjs/
+  100  tree
+  101  mv pjs/plaid.pjs pjs/solid.pjs
+  102  tree
+  103  cd ~/drawers/socks && rm dress.socks
+  104  ~
+  105  tree
+  106  mv *.socks ~/drawers
+  107  mv socks/dress.socks socks/favorite.socks
+  108  cd drawers
+  109  mv *.socks ~/drawers
+  110  ~
+  111  cd sei_321
+  112  mkdir labs fundamentals projects repos code-alongs deliverables reflections
+  113  tree
+  114  mkdir hello_world cd hello_world
+  115  mkdir hello_world
+  116  tree
+  117  cd hello_world
+  118  mkdir scripts styles && touch index.html scripts/app.jsstyles/main.css
+  119  tree
+  120  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  121  tree
+  122  rm -rf hello_world
+  123  tree
+  124  /
+  125  ~
+  126  tree
+  127  cd sei_321
+  128  rm -rf hello_world
+  129  tree
+  130  mkdir hello_world
+  131  cd hello_world
+  132  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  133  tree
+  134  ~
+  135  cd sei_321
+  136  . code
+  137  cd sei_321
+  138  code .
+  139  open index.html
+  140  cd hello_world
+  141  open index.html
+  142  sudo open index.html
+  143  open .index.html
+  144  nautilus index.html
+  145  xdg-open index.html
+  146  gnome-open index.html
+  147  open_browser index.html
+  148  open-browser -f ./index.html
+  149  ~
+  150  $ git clone https://github.com/mnbarber/daily-js-code-challenges.git
+  151  git clone https://github.com/mnbarber/daily-js-code-challenges.git
+  152  code .
+  153  git init
+  154  ~
+  155  git remote add origin https://github.com/mnbarber/daily-js-code-challenges.git
+  156  commit -m "Finished challenge 01"
+  157  git commit -m "Finished challenge 01"
+  158  git clone https://github.com/mnbarber/github_101.git
+  159  cd github_101
+  160  code .
+  161  git status
+  162  git add .
+  163  git commit -m "added my answers to answers.txt"
+  164  git push origin master
+  165  ~
+  166  git clone https://github.com/mnbarber/Star_Wars.git
+  167  cd Star_Wars
+  168  code .
+  169  mkdir star_wars
+  170  cd star_wars
+  171  mkdir empire rebellion
+  172  cd empire && touch darth_vader.txt
+  173  echo "...heavy breathing..." >> darth_vader.txt
+  174  touch emperor_palpatine.txt
+  175  touch death_star
+  176  tree
+  177  rm death_star
+  178  tree
+  179  mkdir death_star
+  180  tree
+  181  mv /empire/darth_vader.txt /death_star/darth_vader.txt
+  182  mv empire/darth_vader.txt empire/death_star/
+  183  tree
+  184  /
+  185  tree
+  186  mv star_wars act1.sh/
+  187  cd empire
+  188  tree
+  189  mv darth_vader.txt /death_star
+  190  tree
+  191  cd star_wars
+  192  cd empire
+  193  mv darth_vader.txt /death_star
+  194  cd Star_Wars
+  195  cd empire
+  196  cd star_wars
+  197  cd empire
+  198  mv darth_vader.txt /death_star
+  199  ls
+  200  ls -l /path/to/darth_vader.txt
+  201  ls -l /Star_Wars/star_wars/
+  202  cd Star_Wars
+  203  cd ..
+  204  cd star_wars
+  205  cd empire
+  206  mv darth_vader.txt /death_star
+  207  sudo mv darth_vader.txt /death_star
+  208  git add .
+  209  git commit -m "finished act 1"
+
+  act 2
+   225  echo "Help me, Obi-Wan... You're my only hope." > princess.leia.txt
+  226  ls
+  227  touch obi_wan.txt
+  228  touch luke_skywalker.txt
+  229  mkdir millenium_falcon
+  230  cd millenium_falcon
+  231  touch han_solo.txt chewbacca.txt
+  232  cd ..
+  233  sudo mv luke_skywalker.txt obi_wan.txt princess.leia.txt /millenium_falcon
+  234  ls
+  235  sudo mv luke_skywalker.txt obi_wan.txt princess.leia.txt ./millenium_falcon
+  236  cd millenium_falcon
+  237  ls
+  238  cd ..
+  239  sudo mv ./millenium_falcon ../death_star
+  240  sudo mv ./millenium_falcon ./empire/death_star
+  241  cd ..
+  242  sudo mv ./millenium_falcon ./empire/death_star
+  243  git add .
+  244  git commit -m "finished act 2"
+
+  act 3
+  246  cd empire
+  247  cd death_star
+  248  sudo mv ./millenium_falcon/* ../death_star
+  249  sudo mv millenium_falcon/* ../death_star
+  250  rm obi_wan.txt
+  251  sudo mv chewbacca.txt han_solo.txt luke_skywalker.txt princess.leia.txt ./millenium_falcon
+  252  sudo mv ./millenium_falcon ../rebellion
+  253  sudo mv ./millenium_falcon ../../rebellion
+  254  sudo mv millenium_falcon ../../rebellion
+  255  sudo mv darth_vader.txt ../empire
+  256  sudo mv darth_vader.txt ../
+  257  rm -rf death_star
+  258  cd ..
+  259  rm -rf death_star
+  260  git add .
+  261  git commit -m "finished act 3"
